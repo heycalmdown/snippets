@@ -1,3 +1,4 @@
+#requires: "Sysinternals' Handle"(http://technet.microsoft.com/en-us/sysinternals/bb896655.aspx)
 import os
 pdbs=[
     'a.pdb',

@@ -20,6 +20,8 @@ if __name__ == '__main__':
 		handles.append('pre_defined_b.pdb')
 		handles.append('pre_defined_c.pdb')
 
-	for handle in handles:
-		kill(handle)
+	while 1:
+		for handle in handles:
+			kill(handle)
+		input()
 
